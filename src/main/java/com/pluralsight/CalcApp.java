@@ -19,7 +19,7 @@ public class CalcApp {
         System.out.println("(D)ivide");
 
         System.out.println("Select option: ");
-        String option = myScanner.next();
+        String option = myScanner.nextLine();
 
         int result = firstNumber * secondNumber;
 
