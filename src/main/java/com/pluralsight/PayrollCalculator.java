@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PayrollCalculator {
     public static void main(String[] args) {
+
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("Enter employee name: ");
@@ -21,7 +22,4 @@ public class PayrollCalculator {
         System.out.println("Gross pay: $" + grossPay);
 
     }
-
-
-
 }
